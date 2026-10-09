@@ -2,16 +2,68 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSS3 Multi-Column Layout</title>
+<title>HTML and CSS Basics</title>
 
 <style>
-/* Write the CSS required for this page here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #c7a8db;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(240, 238, 238);
+    column-span: all;
+}
+
+.columns {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 3px solid rgb(12, 12, 12);
+    text-align: justify;
+    padding: 15px;
+    background-color: rgb(247, 242, 242);
+}
 </style>
 
 </head>
 
 <body>
-/* Design the page for 3 column web page here */
+
+<h1>HTML and CSS Basics</h1>
+
+<div class="columns">
+    <p>
+        HTML (HyperText Markup Language) is the standard language used
+        to create web pages. It provides the basic structure of a website
+        using elements such as headings, paragraphs, images, links, and tables.
+    </p>
+
+    <p>
+        CSS (Cascading Style Sheets) is used to style and design web pages.
+        It controls colors, fonts, layouts, spacing, and animations, making
+        websites more attractive and user-friendly.
+    </p>
+
+    <p>
+        HTML and CSS work together to build modern websites. HTML creates
+        the content and structure, while CSS improves the appearance and
+        presentation of that content.
+    </p>
+
+    <p>
+        With CSS3, developers can create responsive layouts, transitions,
+        shadows, gradients, and multi-column designs without using complex
+        code. This helps in developing professional and visually appealing websites.
+    </p>
+
+    <p>
+        Learning HTML and CSS is the first step toward web development.
+        They are essential technologies for creating personal websites,
+        business pages, blogs, and interactive web applications.
+    </p>
+</div>
+
 </body>
 </html>
